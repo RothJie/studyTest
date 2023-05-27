@@ -15,3 +15,23 @@
 		-rw-r--r-- 1 Administrator 197121  571 May 27 14:57 id_rsa.pub
 		-rw-r--r-- 1 Administrator 197121  268 May 27 14:28 known_hosts
 	 查看公钥: cat id_rsa.pub
+4.克隆仓库：
+	git clone 仓库地址
+	git clone git@github.com:RothJie/studyTest.git
+
+5.查看状态 
+	git status 
+
+6.添加新文件或者修饰文件
+	git add 文件名1 文件名2
+	git add .
+    git add *.py
+
+7.将添加的文件添加为某个版本
+	git commit -m '描述信息'
+	
+8.将版本推送到远程仓库
+	git push 
+
+
+ 
