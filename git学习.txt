@@ -33,5 +33,11 @@
 8.将版本推送到远程仓库
 	git push 
 
+9.查看日志
+	git log
+	git log --pretty=oneline   以单行的方式查看日志信息
+	git reflog --pretty=oneline 简短显示版本序列号
+
+
 
  
